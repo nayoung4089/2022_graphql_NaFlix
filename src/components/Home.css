@@ -1,0 +1,133 @@
+body{
+    margin: 0 auto;
+    border: 0;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.3rem;
+}
+a {
+    text-decoration:none;
+    color: white;
+}
+span, .sub-nav {
+    padding: 0 60px 0 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+}
+.logo{
+    color: #e50914;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+.nav{
+    width: 50%;
+}
+.icon{
+    padding: 0 1rem;
+    font-size: 1.7rem;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3.2rem;
+    padding: 1rem 5% 1rem 5%;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 3000;
+  }
+.hole{
+    padding: 3rem;
+}
+
+/* video */
+.video-box{
+    position: relative; /* absolute는 부모가 relative일 때 부모를 따라간다. */
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 비율 */
+}
+.video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* 부모에 맞게 꽉 채운다. */
+    height: 100%;
+}
+.video-text{
+    position: absolute;
+    top: 55%;
+    left: 3%;
+    font-size: 3.2rem;
+} 
+.opacity{
+    opacity:0.6;
+}
+/* 버튼 */
+.flex{
+    display: flex;
+}
+.button{
+    font-size: 1.2rem;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top:20px;
+    margin-right:20px;
+}
+.white{
+    background-color: white;
+    color: black;
+}
+.gray{
+    background-color: gray;
+    color: white;
+}
+.overview{
+    font-size: 1rem;
+    width: 30%;
+    padding: 0.5rem 0;
+}
+.main-title{
+    padding: 0px 100px 100px 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+/* grid 이용해서 한 번에 4개 보여주기 - Home.js*/
+.main{
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    place-items: center;
+    padding: 40px 10px 40px 10px;
+    column-gap: 15px;
+}
+.main::-webkit-scrollbar {
+    width: 0.5px;  /* 스크롤바의 너비 */
+}
+.main::-webkit-scrollbar-thumb {
+    height: 1%;
+    background: #ffffff10; /* 스크롤바의 색상 */
+    border-radius: 10px;
+}
+/* 안의 내용물 가운데정렬  - Movie.js*/
+.main-text{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* hover 시 */
+.main-text:hover{
+    transform: scale( 1.1, 1.1 );
+    transition: transform .3s;
+}
+.sub-title{
+    font-size: 1.7rem;
+    padding: 2.5rem 0 0 0;
+}
