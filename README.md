@@ -14,5 +14,6 @@
 - 관련 영화 추천해주기
 
 > MainPage
+
 ![image](https://user-images.githubusercontent.com/76803855/182128188-dc62d395-8842-4818-8ff2-c14278ba4a5d.png)
 ![Naflix 최종](https://user-images.githubusercontent.com/76803855/182128885-76c8ac3a-71c9-4129-a06d-d989c47f621a.gif)
