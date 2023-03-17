@@ -3,13 +3,13 @@
 > Link: https://nayoung4089.github.io/2022_graphql_NaFlix/
 
 ## 🕰 개발기간
-~ 
+~ 2022.07.30 (약 3일)
 
 ## ⚙️ 개발 환경
 ```graphQL``` ```React Js```
 
 ## 📌 주요 기능
-- 영화 api: 
+- 영화 api: TMDB api
 - 장르별 인기 top 순위 보여주기
 - 관련 영화 추천해주기
 
